@@ -127,6 +127,7 @@ in
     # (for syntax highlighting)
     /* python */
     ''
+      import os
       import json
 
       initrd_files = json.loads('${initrdJSON}')
